@@ -57,3 +57,22 @@ body {
 .Nav a:hover {
   color: var(--dark-green-hover);
 }
+.nav-button {
+  background: none;
+  border: none;
+  color: inherit;
+  cursor: pointer;
+  font: inherit;
+  padding: 0;
+  transition: color 0.3s;
+}
+
+.nav-button:hover {
+  color: #00704a;
+}
+
+.Nav ul li.active a,
+.Nav ul li.active .nav-button {
+  color: #00704a;
+  font-weight: bold;
+}
