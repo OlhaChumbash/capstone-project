@@ -1,7 +1,7 @@
 import SpecialCard from "./SpecialCard";
 import ReservationButton from "./ReservationButton";
 
-function Main() {
+function HomePage() {
   const styles = {
     main: {
       padding: '40px 5%',
@@ -71,4 +71,4 @@ function Main() {
   );
 }
 
-export default Main;
+export default HomePage;
