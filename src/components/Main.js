@@ -1,4 +1,5 @@
 import SpecialCard from "./SpecialCard";
+import ReservationButton from "./ReservationButton";
 
 function Main() {
   const styles = {
@@ -38,6 +39,7 @@ function Main() {
     <p style={styles.p}>
       At Little Lemon, we combine traditional Mediterranean flavors with modern touches.
       Our chefs Mario and Adrian ensure fresh ingredients and unforgettable meals.
+      <ReservationButton />
     </p>
   </section>
 
