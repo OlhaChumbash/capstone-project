@@ -14,7 +14,7 @@ function Nav() {
         const section = document.getElementById(id);
         if (section) section.scrollIntoView({ behavior: "smooth" });
         setActive(id);
-      }, 150); // чуть больше времени, чтобы секции точно отрендерились
+      }, 150);
     } else {
       const section = document.getElementById(id);
       if (section) section.scrollIntoView({ behavior: "smooth" });
