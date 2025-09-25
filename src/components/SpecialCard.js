@@ -1,3 +1,5 @@
+import Button from "./Button";
+
 function SpecialCard({ imgSrc, title, price, description }) {
   const styles = {
     card: {
@@ -37,17 +39,6 @@ function SpecialCard({ imgSrc, title, price, description }) {
       color: '#238f0bff',
       fontWeight: 'bold',
     },
-    button: {
-      backgroundColor: '#f4ce14',
-      color: '#495e57',
-      border: 'none',
-      borderRadius: '8px',
-      padding: '12px',
-      fontSize: '16px',
-      fontWeight: 'bold',
-      cursor: 'pointer',
-      width: '100%',
-    },
   };
 
   return (
@@ -58,7 +49,7 @@ function SpecialCard({ imgSrc, title, price, description }) {
         <span style={styles.price}>{price}</span>
       </div>
       <p style={styles.description}>{description}</p>
-      <button style={styles.button}>Order</button>
+        <Button to="/reservations"> Order </Button>
     </div>
   );
 }

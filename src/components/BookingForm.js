@@ -1,5 +1,6 @@
-// BookingForm.js
 import React, { useState } from "react";
+import Button from "./Button";
+
 
 function BookingForm() {
   const [firstName, setFirstName] = useState("");
@@ -94,20 +95,7 @@ function BookingForm() {
       marginLeft: "20px",
       fontSize: "16px",
       fontFamily: "Karla, serif",
-    },
-    button: {
-      backgroundColor: "#f4ce14",
-      color: "#495e57",
-      border: "none",
-      borderRadius: "8px",
-      padding: "14px",
-      fontSize: "16px",
-      fontWeight: "bold",
-      cursor: "pointer",
-      marginTop: "10px",
-      textDecoration: "none",
-      width: "100%",
-    },
+    }
   };
 
   return (
@@ -236,9 +224,7 @@ function BookingForm() {
       </div>
 
       <div style={styles.fullWidth}>
-        <button type="submit" style={styles.button}>
-          Make Your Reservation
-        </button>
+        <Button  type="submit">  Make Your Reservation </Button>
       </div>
     </form>
   );
