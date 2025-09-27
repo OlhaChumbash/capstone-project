@@ -1,5 +1,5 @@
-import SpecialCard from "./SpecialCard";
-import Button from "./Button";
+import SpecialCard from "../components/SpecialCard";
+import Button from "../components/Button";
 
 function HomePage() {
   const styles = {
