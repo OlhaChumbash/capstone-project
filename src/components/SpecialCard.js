@@ -49,7 +49,7 @@ function SpecialCard({ imgSrc, title, price, description }) {
         <span style={styles.price}>{price}</span>
       </div>
       <p style={styles.description}>{description}</p>
-        <Button to="/reservations"> Order </Button>
+        <Button to="/"> Order </Button>
     </div>
   );
 }
